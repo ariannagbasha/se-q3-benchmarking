@@ -30,7 +30,7 @@ def find_anagrams(words):
     """
     anagrams = {alphabetize(word): [] for word in words}
     for word in words:
-            anagrams[alphabetize(word)].append(word)
+        anagrams[alphabetize(word)].append(word)
     return anagrams
 
 
